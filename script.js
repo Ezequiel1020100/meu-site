@@ -6,7 +6,7 @@ btn1.addEventListener("click", () =>
 iniciar())
 function iniciar(){
     
-menu.style.width = "150px"
+menu.style.width = "100px"
 btn2.style.display = "flex"
 btn2.classList.add('ml-auto');
 links.style.display = "flex"
@@ -14,7 +14,7 @@ links.style.display = "flex"
 btn2.addEventListener("click", () =>
     fechar())
     function fechar(){
-    menu.style.width="36px"
+    menu.style.width="56px"
     btn2.style.display = "none"
     links.style.display = "none"
     }
