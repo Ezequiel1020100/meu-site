@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="./styles/output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
-</head>
 
+</head>
 <body class="bg-orange-500">
 
     <header class= "">
@@ -18,45 +18,46 @@
       </div>
     </header>
 
+<nav id="menu" class="w-14 h-full border-3 border-black rounded-md  bg-slate-500 fixed shadow-lg flex top-10 overflow-hidden ">
+    <i class="bi bi-blockquote-left text-4xl text-white" id="btn-open"></i> 
+    <i class="bi bi-x text-red-500 text-3xl hidden" id="btn-close"></i>
+
+    <div class="flex flex-col justify-center gap-5 fixed top-40 left-2 align-bottom  text-white">
+    <i class="bi-box-arrow-in-right text-2xl text-green-300"></i>
+    <i class="bi bi-house text-2xl text-yellow-400"></i>
+    <i class="bi bi-chat-dots text-2xl text-red-500 "></i>
+    <i class="bi bi-cart-check text-2xl text-blue-200 "></i>
+
+    <div class="flex flex-col top-45 left-9 gap-9 font-bold fixed hidden text-xs underline" id="links">
+    <a href="">LOGIN</a>
+    <a id="home" href="">HOME</a>
+    <a id="duvidas" href="">DUVIDAS</a>
+    <a id="compras" href="">COMPRAS</a>
+    </div>
+</div>
+</nav>
+
     <p class="flex justify-center font-bold text-2xl text-white">PROMOÇÕES DO DIA </p>
 
-<main class=" w-full block mt-10 ml-16 space-y-3 lg:space-y-0">
-    <!--CONTAINERS-->
-<div class=" w-full flex gap-0 bg-yellow-300 rounded-md h-44">
-    <img src="/assets/tenis1.png" class="h-24">
-    <p class=" line-through fixed ml-24 text-lg text-red-500 font-bold">R$187,51</p>
-    <p class=" ml-32 text-xl mt-8 fixed text-green-500 font-bold">R$100</p>
-    <p class="text-black mt-28 p-1 rounded-md bg-white font-bold flex fixed left-24"> Chuteiras Fast Football <br> Criança/adulto Multi-studs</p> 
-      <button class="bg-green-500 p-1 fixed ml-36 mt-16 rounded-xl text-white font-bold">COMPRAR</button>
 
+<main class="grid grid-cols-1 gap-7  mx-auto max-w-7xl">
+<div class=" w-full flex rounded-md justify-center bg-yellow-300  w-80 h-44">  
+    <img src="/assets/tenis1.png" class="h-28" alt="">    
+<div>
+<p>Chuteira......</p>
+<p>Descrição <br>hjogfdsg</p>
+<div class="flex items-center  gap-2 mt-3">
+<p class="text-red-500">100$</p> 
+<p>100</p>
 </div>
-<div class=" w-full flex flex-col items-center rounded-md bg-yellow-300  w-80 h-44">      
-</div>
-<div class=" w-full flex flex-col items-center bg-yellow-300 rounded-md  w-80 h-44">
-
-
+<p>Mais informação</p>
+<button class="bg-green-500 rounded-lg text-white p-2 ">COMPRAR</button>
 </main>
 
-<nav id="menu" class="w-14 h-full border-3 border-black rounded-md  bg-slate-500 fixed shadow-lg flex top-10 overflow-hidden ">
-        <i class="bi bi-blockquote-left text-4xl text-white" id="btn-open"></i> 
-        <i class="bi bi-x text-red-500 text-3xl hidden" id="btn-close"></i>
 
-        <div class="flex flex-col justify-center gap-5 fixed top-40 left-2 align-bottom  text-white">
-        <i class="bi-box-arrow-in-right text-2xl text-green-300"></i>
-        <i class="bi bi-house text-2xl text-yellow-400"></i>
-        <i class="bi bi-chat-dots text-2xl text-red-500 "></i>
-        <i class="bi bi-cart-check text-2xl text-blue-200 "></i>
 
-        <div class="flex flex-col top-45 left-9 gap-9 font-bold fixed hidden text-xs underline" id="links">
-        <a href="">LOGIN</a>
-        <a id="home" href="">HOME</a>
-        <a id="duvidas" href="">DUVIDAS</a>
-        <a id="compras" href="">COMPRAS</a>
-        </div>
-    </div>
-    </nav>
-<footer class="">
-<h1 class="text-white text-center">Desenvolvedor&Ezequiel</h1>
+<footer class="w-full bg-slate-500 fixed bottom-0 z-40">
+<p class="text-white text-center">Desenvolvedor&Ezequiel</p>
 </footer>
 </body>
 <script src="script.js"></script>
