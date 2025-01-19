@@ -14,7 +14,7 @@ links.style.display = "flex"
 btn2.addEventListener("click", () =>
     fechar())
     function fechar(){
-    menu.style.width="56px"
+    menu.style.width="40px"
     btn2.style.display = "none"
     links.style.display = "none"
     }
