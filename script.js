@@ -13,55 +13,6 @@ const mais = document.getElementById("mais")
 
 
 
-
-section1.addEventListener("click", () =>
-    informar())
-    function informar(){
-    alert("Em desenvolvimento")
-        }
-section2.addEventListener("click", () =>
- informar())
- function informar(){
- alert(" Em desenvolvimento")
-  }
-section3.addEventListener("click", () =>
- informar())
- function informar(){
- alert("Em desenvolvimento")
- }
-                
- home.addEventListener("click", () =>
-    informar())
-    function informar(){
-    alert("Em desenvolvimento")
-    }
-login.addEventListener("click", () =>
-        informar())
-        function informar(){
-        alert(" Em desenvolvimento")
-        }
-duvidas.addEventListener("click", () =>
-informar())
- function informar(){
-alert("Em desenvolvimento")
-            }
-compras.addEventListener("click", () =>
-informar())
- function informar(){
-alert("Em desenvolvimento")
-        }
-
-mais.addEventListener("click", () =>
- informar())
- function informar(){
-alert("Em desenvolvimento")
-    }
-
-
-
-
-
-
 btn1.addEventListener("click", () =>
 iniciar())
 function iniciar(){
